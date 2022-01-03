@@ -17,14 +17,14 @@ import cv2
 #         break
 #     pass
 
-cap = cv2.VideoCapture('video.mp4')
+# cap = cv2.VideoCapture('video.mp4')
 
-while(cap.isOpened()):
-    ret , frame = cap.read()
-    gray = cv2.cvtColor(frame,cv2.COLOR_BGR2RGB)
+# while(cap.isOpened()):
+#     ret , frame = cap.read()
+#     gray = cv2.cvtColor(frame,cv2.COLOR_BGR2RGB)
 
-    cv2.imshow('frame',gray)
+#     cv2.imshow('frame',gray)
 
-    if cv2.waitKey(1) == ord('q'):
-        break
-    pass
+#     if cv2.waitKey(1) == ord('q'):
+#         break
+#     pass
